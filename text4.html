@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        cite { color: darkmagenta;}
+
+        a:link {color: darkseagreen; }/*적용순서 유의*/
+        a:visited { color: darkseagreen;}
+        a:hover { color: darksalmon;}
+        a:active { color: darkseagreen;}
+        
+    </style>
+</head>
+<body>
+    <!-- <abbr>:약어 표시 -->
+    <h1>The <abbr title="World Health Organization" >WHO</abbr> was founded in 1948.</h1>
+
+
+    <h2><bdo dir="rtl"><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</h2></bdo>
+    <!-- <bdo>: 글자 써지는 방향 -->
+
+    <p>출처 : <a href="http://www.naver.com" target="_blank">naver</a></p>
+    <!--  target="_blank" 새창에서 사이트 열림 -->
+    <!-- <a>의 CSS변경 가능 사항
+        - a:link{}/ a:visited{}/ a:hover{}/ a:active{} -->
+    <a href=""><img src="img/sns_2.png" alt=""></a>
+
+    <!-- 상대 화일의 경로: 현재 index의 위치 기준 
+         -위로는:  ../
+         -아래로는:  /파일명
+     -->
+
+     <button onclick="document.location='http://www.kakao.com'">kakao</button>
+     <!-- 자바스크립트 연결도 가능 -->
+</body>
+</html>
